@@ -1,6 +1,6 @@
-[submodule "native/CascLib"]
-	path = native/CascLib
-	url = https://github.com/ladislav-zezula/CascLib
-[submodule "native/StormLib"]
-	path = native/StormLib
+[submodule "src/third-party/StormLib"]
+	path = src/third-party/StormLib
 	url = https://github.com/ladislav-zezula/StormLib
+[submodule "src/third-party/CascLib"]
+	path = src/third-party/CascLib
+	url = https://github.com/ladislav-zezula/CascLib

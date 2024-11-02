@@ -1,5 +1,5 @@
 {
-  "name": "blizzutils",
+  "name": "@jamiephan/node-blizzutils",
   "version": "1.0.0",
   "description": "A CascLib and StormLib nodejs bindings for Blizzard Games",
   "main": "index.js",
@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.8.6",
+    "node-addon-api": "^8.2.1",
+    "typescript": "^5.6.3"
+  }
 }
