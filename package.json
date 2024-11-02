@@ -1,0 +1,12 @@
+{
+  "name": "blizzutils",
+  "version": "1.0.0",
+  "description": "A CascLib and StormLib nodejs bindings for Blizzard Games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
