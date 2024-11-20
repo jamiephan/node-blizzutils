@@ -1,3 +1,4 @@
 export default interface ICascLib {
-  casclib: () => "I am CASCLIB!!";
+  _test_greet: () => "I am CASCLIB!!";
+  CascOpenStorageEx: () => null;
 }

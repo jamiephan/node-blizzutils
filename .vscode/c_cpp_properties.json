@@ -1,19 +1,20 @@
 {
-    "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/node_modules/node-addon-api/**",
-                "${workspaceFolder}/src/native/third-party/**",
-                "/usr/local/share/nvm/versions/node/**"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "linux-clang-x64"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/node_modules/node-addon-api/**",
+        "/usr/local/share/nvm/versions/node/**",
+        "${workspaceFolder}/src/native/third-party/CascLib/src/**",
+        "${workspaceFolder}/src/native/third-party/StormLib/src/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-clang-x64"
+    }
+  ],
+  "version": 4
 }

@@ -3,7 +3,8 @@
         {
             "target_name": "casclib-native",
             "sources": [
-                "src/native/node-casclib/main.cc"
+                "src/native/node-casclib/main.cc",
+                "src/native/node-casclib/bindings/BCascOpenStorageEx.cc"
             ],
             "include_dirs": [
                 "<!@(node -p \"require(\\\"node-addon-api\\\").include\")"

@@ -1,5 +1,6 @@
 import { cascLib } from "./libs";
 
 test("Testing export file", () => {
-  expect(cascLib.casclib()).toBe("I am CASCLIB!!");
+  console.log(cascLib);
+  expect(cascLib._test_greet()).toBe("I am CASCLIB!!");
 });
