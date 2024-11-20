@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "target": "ES2017",
+    "declaration": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+    "typeRoots": ["node_modules"],
+    "types": ["vitest/globals"]
+  },
+  "include": ["src/libs/**/*"]
+}
