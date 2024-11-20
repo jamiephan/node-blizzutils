@@ -1,4 +1,4 @@
-const nodeCascLib = require("bindings")("deps-casclib")
-const nodeStormLib = require("bindings")("deps-stormlib")
+const nodeCascLib = require("bindings")("casclib-native")
+// const nodeStormLib = require("bindings")("stormlib-native")
 
-console.log(nodeCascLib.casclib(), nodeStormLib.stormlib())
+console.log(nodeCascLib.casclib())

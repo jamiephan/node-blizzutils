@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/node_modules/node-addon-api/**"
+                "${workspaceFolder}/node_modules/node-addon-api/**",
+                "${workspaceFolder}/src/native/third-party/**",
+                "/usr/local/share/nvm/versions/node/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
